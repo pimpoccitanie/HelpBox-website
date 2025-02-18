@@ -1,0 +1,80 @@
+
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f9;
+}
+
+/* Header & Héros */
+.hero {
+  background-color: #3498db;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+.cta-button {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #c0392b;
+}
+
+/* Section Pourquoi nous */
+#pourquoi {
+  padding: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+/* Section Fonctionnalités */
+#fonctionnalites {
+  background-color: #ecf0f1;
+  padding: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* Précommande */
+#precommande {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+input[type="email"] {
+  padding: 10px;
+  font-size: 1em;
+  width: 70%;
+  max-width: 400px;
+  margin-right: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #34495e;
+  color: white;
+  padding: 10px 0;
+}
